@@ -12,6 +12,7 @@ This version fits within the 200-word limit for a tweet and highlights the key p
 Certainly! Here's a fleshed-out version of the promo text based on your highlighted ideas:
 
 ---
+![image](https://github.com/idle-hand/July_1st_SpeakEasy/assets/33843929/211b67a6-2015-4c4c-a24e-fcba2f770808)
 
 🌟 Want to ensure you don't fail the Canadian citizenship test? Join SpeakEasy today for free help with basic conversational English and mastering the test questions! 🇨🇦
 
