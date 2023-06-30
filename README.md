@@ -1,4 +1,8 @@
-# July_1st_SpeakEasy
+
+Create a Facebook page and group work in progress
+
+# July_1st_SpeakEasy![baby](https://github.com/idle-hand/July_1st_SpeakEasy/assets/33843929/ba1b2188-ae28-4d57-bca7-98785f817c64)
+
 SpeakEasy base files readme and ChatGPT promo text files. 
 
 Certainly! Here's a condensed version of the promo text for a tweet:
