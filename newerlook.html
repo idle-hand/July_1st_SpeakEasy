@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Next Website Apr.02</title>
+  <title>July 1 live</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
@@ -61,8 +61,8 @@
 
 
 <!--<div class="w3-container  w3-red w3-round  "> -->
-<div class="w3-bar w3-light-blue w3-card w3-round w3-half">
-<h2>SpeakEasy Score: <span id="score">0</span></h2>
+<div class="w3-bar w3-red w3-card w3-round w3-half">
+<h2>SpeakEasy</h2>
 </div>
 <br><br>
 <br><br>
@@ -91,8 +91,8 @@
 
 
 
-<footer class="w3-bar w3-light-blue w3-card w3-round f">
-<h3>The Computer Tutor</h3>
+<footer class="w3-bar w3-red w3-card w3-round f">
+<h3>The Computer Tutor by On-Line Literacy Systems</h3>
 </footer>
 </div>
   <script>
@@ -158,7 +158,6 @@ answer: 2
          nextQuestion();
         } else {
            nextQuestion();
-          alert("Wrong.");
         }
         document.getElementById("score").innerHTML = score;
       }
@@ -174,20 +173,13 @@ answer: 2
       function nextQuestion() {
   currentQuestion++;
   if (currentQuestion === questions.length) {
-    alert(`Quiz completed. Your score is ${score}`);
+ document.getElementById("score").innerHTML = score;
+    alert(`Less than 8 not good - . Your score is ${score}`);
     currentQuestion = 0;
     score = 0; // Reset the score when the quiz is completed.
   }
   displayQuestion();
 }
-
-      function resetScore() {
-        score = 0;
-        currentQuestion = 0;
-        document.getElementById("score").innerHTML = score;
-        alert("Score has been reset.");
-        displayQuestion();
-      }
     </script>
 
 </body>
